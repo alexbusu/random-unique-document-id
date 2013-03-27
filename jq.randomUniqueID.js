@@ -30,7 +30,7 @@
 		var p = ( prefix && prefix.replace(/[^A-Za-z_]+/g, '' ) ) || 'ruid';
 		var ruid;
 		do { ruid = p + Math.floor( Math.random() * 10000000 ); }
-		while ( getElementByID( ruid ) );
+		while ( document.getElementById( ruid ) );
 		return ruid;
 	};
 })(jQuery);
