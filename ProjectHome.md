@@ -1,0 +1,1 @@
+Generates random and also unique IDs for HTML document.
